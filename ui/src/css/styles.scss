@@ -1,0 +1,107 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: red;
+
+//$icon-font-path: "~bootstrap/fonts/";
+//@import "menu.scss";
+@import "servers.scss";
+
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+//  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.st_panel {
+    float: right;
+    display: block;
+}
+
+.mr {
+    margin-right: 20px;
+    margin-left: 3px;
+}
+
+.state_0 {
+    color: green;
+    background-color: #FCEFB0;
+    background-image: radial-gradient(circle farthest-corner at 10px 10px , green, #FFF);
+}
+
+.state_1 {
+    color: #FFA500;
+    background-color: #FCEFB0;
+    background-image: radial-gradient(circle farthest-corner at 10px 10px , #FFA500, #FFF);
+}
+
+.state_2 {
+    color: red;
+    background-color: #FCEFB0;
+    background-image: radial-gradient(circle farthest-corner at 10px 10px , red, #FFF);
+}
+.state_3 {
+    color: gray;
+    background-color: #FCEFB0;
+    background-image: radial-gradient(circle farthest-corner at 10px 10px , gray, #FFF);
+}
+.circle {
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border: 1px solid;
+    position: relative;
+    top: 4px;
+}
+
+.ico-top {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    font-size: 17px;
+    position: relative;
+    top: 4px;
+    color: #333;
+}
+
+
+#main_content {
+  table {
+    font-size: 12px;
+  }
+}
