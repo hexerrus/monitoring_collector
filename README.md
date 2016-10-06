@@ -1,24 +1,22 @@
-# README
+Simple system for collect monitoring data from multiple nagios servers
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### install
 
-* Ruby version
+```
+cd /opt
+git clone https://github.com/hexerrus/monitoring_collector.git
+cd monitoring_collector
+bash ./install.sh
+```
 
-* System dependencies
+### run
 
-* Configuration
+```
+puma
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+By default server will run on port 4000
+#### Default credentinals:
+* login: admin
+* password: admin
